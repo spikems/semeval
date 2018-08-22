@@ -1,0 +1,20 @@
+SemEval
+==================
+
+正负面评价
+
++ 安装依赖
+
+    python 2.7  
+    simhash-py: https://github.com/seomoz/simhash-py  
+    xgboost: http://xgboost.readthedocs.io/en/latest/  
+
++ 数据格式
+
+    默认为.xlsx文件，refer to data/dataset
+
+    目前识别时，使用数据中的以下字段：  
+        监测对象 ；监测的目的关键词，比如‘日产’  
+        内容来源 ；内容的来源分类，比如’微博‘，’新闻‘  
+        标题  
+        摘要  
